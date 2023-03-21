@@ -1,0 +1,21 @@
+<div class="container">
+    <h2>Enginner List</h2>
+    <table class="table table-dark table-striped">
+        <thead>
+         <tr>
+             <td>ID</td>
+             <td>First Name</td>
+             <td>Last Name</td>
+             <td>Email ID</td>
+         </tr>
+        </thead>
+        <tbody>
+         <tr *ngFor="let a of EngineerList" >
+             <td>{{a.id}}</td>
+             <td>{{a.firstName}}</td>
+             <td>{{a.lastName}}</td>
+             <td>{{a.emailId}}</td>
+         </tr>
+        </tbody>
+     </table>
+</div>
